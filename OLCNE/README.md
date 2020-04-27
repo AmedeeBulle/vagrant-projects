@@ -119,6 +119,9 @@ hosts in your network.
 Native Environment developer channel.
 - `REGISTRY_OLCNE` (default: `container-registry.oracle.com/olcne`): Container
 registry for Oracle Linux Cloud Native Environment images.
+- `INSECURE_REGISTRIES` (default: none): Comma separated list of insecure registries.
+Can be used with the [Container Registry Vagrantfile](../ContainerRegistry)
+to mirror locally the Oracle Linux Cloud Native Environment images.
 
 For performance reasons, we recommend using the closest Oracle Container Registry mirror to your region. A list of available regions can be found on the [Regions and Availability Domains](https://docs.cloud.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm) page of the Oracle Cloud Infrastructure documentation.
 
